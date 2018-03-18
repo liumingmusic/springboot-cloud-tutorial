@@ -1,0 +1,24 @@
+package com.liumm.micro.weather;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+/**
+ * 
+ * @ClassName: 主程序入口
+ * @Description: TODO(这里用一句话描述这个类的作用) 
+ * @author liumm 
+ * @date 2018年3月11日 下午8:31:24 
+ *
+ */
+@SpringBootApplication
+@EnableCaching
+@EnableScheduling
+public class MicroWeatherBasicApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MicroWeatherBasicApplication.class, args);
+	}
+}

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: micro-weather-basic
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: liumm
+Implementation-Vendor-Id: com.liumm.weather
+Build-Jdk: 1.8.0_151
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/micro-weather-basic
+Created-By: Maven Integration for Eclipse
+
