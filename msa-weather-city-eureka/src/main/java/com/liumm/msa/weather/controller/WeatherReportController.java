@@ -39,7 +39,7 @@ public class WeatherReportController {
 	 * @return:
 	 * @throws Exception 
 	 */
-	@GetMapping
+	@GetMapping(value = "/list")
 	public List<City> listCity() throws Exception {
 		return cityDataService.getCityList();
 	}
