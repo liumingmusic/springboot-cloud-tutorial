@@ -10,6 +10,7 @@ package com.liumm.msa.weather.service.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.liumm.msa.weather.service.IWeatherDataFeignClient;
@@ -27,7 +28,8 @@ import com.liumm.msa.weather.vo.WeatherData;
 public class WeatherReportServiceImpl implements WeatherReportService {
 
 	public static final Logger LOGGER = LoggerFactory.getLogger(WeatherReportServiceImpl.class);
-
+	
+	@Autowired
 	private IWeatherDataFeignClient weatherDataFeignClient;
 
 	/**
