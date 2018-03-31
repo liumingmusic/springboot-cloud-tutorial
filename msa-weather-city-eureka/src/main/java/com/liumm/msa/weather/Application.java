@@ -14,9 +14,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class MicroWeatherDataApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroWeatherDataApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }

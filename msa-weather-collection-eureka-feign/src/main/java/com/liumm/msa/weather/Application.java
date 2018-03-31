@@ -16,9 +16,9 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-public class MicroWeatherReportApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroWeatherReportApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }
