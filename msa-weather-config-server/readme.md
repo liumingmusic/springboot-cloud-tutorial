@@ -1,5 +1,2 @@
-## 天气接口：
-1. http://wthrcdn.etouch.cn/weather_mini?city=贵阳
-2. http://wthrcdn.etouch.cn/weather_mini?citykey=101280601
-3. http://mobile.weather.com.cn/js/citylist.xml
-4. http://cj.weather.com.cn/support/Detail.aspx?id=51837fba1b35fe0f8411b6df
+## 描述
+资源文件管理服务中心，就是统一管理所有子项目中的配置文件
